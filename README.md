@@ -20,22 +20,13 @@ A simple ERC20 token contract used for testing purposes.
    ```bash
    git clone <repository-url>
    cd erc4626-hardhat-ts
-##Install dependencies:
+   npm install
+   Compile contracts:
+   npx hardhat compile
+   Run unit tests:
+   npx hardhat test
 
- ```bash
-Copy code
-npm install
-Compile contracts:
 
-bash
-Copy code
-npx hardhat compile
-Run unit tests:
-
-bash
-Copy code
-Running Unit Tests :
-npx hardhat test
 ##The unit tests cover various functionalities of the MyERC4626Vault contract, including deposits, withdrawals, minting, and redeeming of shares.
 ## Example Output
 Below is a screenshot of the successful unit tests:
