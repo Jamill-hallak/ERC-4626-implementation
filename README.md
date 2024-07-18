@@ -20,9 +20,9 @@ A simple ERC20 token contract used for testing purposes.
    ```bash
    git clone <repository-url>
    cd erc4626-hardhat-ts
-Install dependencies:
+##Install dependencies:
 
-bash
+ ```bash
 Copy code
 npm install
 Compile contracts:
@@ -46,7 +46,7 @@ Below is a screenshot of the successful unit tests:
 * contracts/
 MyERC4626Vault.sol: Implementation of the ERC-4626 vault.
 
-TestERC20.sol: Simple ERC20 token for testing.
+  TestERC20.sol: Simple ERC20 token for testing.
 * test/
 MyERC4626Vault.test.ts: Unit tests for the vault contract.
 
