@@ -16,10 +16,9 @@ A simple ERC20 token contract used for testing purposes.
 ## Project Setup
 
 1. **Clone the repository:**
-
    ```bash
-   git clone <repository-url>
-   cd erc4626-hardhat-ts
+   git clone https://github.com/Jamill-hallak/ERC-4626-implementation.git
+   cd ERC-4626-implementation
    npm install
    Compile contracts:
    npx hardhat compile
@@ -34,11 +33,12 @@ Below is a screenshot of the successful unit tests:
 
 ## File Structure
 * contracts/
-MyERC4626Vault.sol: Implementation of the ERC-4626 vault.
+   MyERC4626Vault.sol :  Implementation of the ERC-4626 vault.
 
-  TestERC20.sol: Simple ERC20 token for testing.
+   TestERC20.sol :  Simple ERC20 token for testing.
+  
 * test/
-MyERC4626Vault.test.ts: Unit tests for the vault contract.
+MyERC4626Vault.test.ts :  Unit tests for the vault contract.
 
 ## License
 This project is licensed under the MIT License.
