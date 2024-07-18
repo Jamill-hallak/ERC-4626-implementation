@@ -36,18 +36,19 @@ bash
 Copy code
 npx hardhat test
 Running Unit Tests
-The unit tests cover various functionalities of the MyERC4626Vault contract, including deposits, withdrawals, minting, and redeeming of shares.
-Example Output
+
+# The unit tests cover various functionalities of the MyERC4626Vault contract, including deposits, withdrawals, minting, and redeeming of shares.
+## Example Output
 Below is a screenshot of the successful unit tests:
 ![Screenshot 2024-07-19 004841](https://github.com/user-attachments/assets/227c2c23-4068-43a3-857f-13f193b1d132)
 
 ## File Structure
-contracts/
+#contracts/
 MyERC4626Vault.sol: Implementation of the ERC-4626 vault.
+
 TestERC20.sol: Simple ERC20 token for testing.
-test/
+#test/
 MyERC4626Vault.test.ts: Unit tests for the vault contract.
-scripts/: Scripts for deploying contracts.
-typechain/: Generated TypeScript bindings for the contracts.
-License
+
+#License
 This project is licensed under the MIT License.
